@@ -1,10 +1,10 @@
 <template>
   <h1>Final Fantasy XIV Treasure Dungeon Door Randomizer!</h1>
-
-<template v-if="!calculating">
-  <p>
-    Pick a door, any door! Run those treasure dungeons with the power of randomness!
+ <p>
+    Pick a door, any door! Take the decisions out of running treasure dungeons with the power of randomness!
   </p>
+<template v-if="!calculating">
+ 
   <h2>Left or Right?</h2>
   <div>
     <label><input type="checkbox" v-model="alwaysLeft"> Josh Algorithm</label>
