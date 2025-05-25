@@ -7,7 +7,7 @@
  
   <h2>Left or Right?</h2>
   <div>
-    <label><input type="checkbox" v-model="alwaysLeft"> Josh Algorithm</label>
+    <label><input type="checkbox" v-model="alwaysLeft"> Apply Merelle Algorithm</label>
   </div>
   <br/>
 <div>
@@ -16,7 +16,7 @@
 </template>
 <template v-else>
 <transition >
-  <div>
+  <div v-if="calcStep>=0">
     Calculating base decision...
   </div>
 </transition>
